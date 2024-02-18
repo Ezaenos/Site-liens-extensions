@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrome Page</title>
+    <link rel="icon" href="images/icon256.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('Chrome/Google_Chrome_icon_\(February_2022\).png') no-repeat center center fixed;
+            filter: blur(5px);
+            z-index: -1;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            z-index: -1;
+        }
+
+        body {
+            position: relative;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            cursor: url('images/icon16.png'), auto;
+            overflow: hidden;
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        .title, p {
+            text-shadow: 2px 2px 4px #000000;
+        }
+    </style>
+        <div class="background"></div>
+        <div class="overlay"></div>
+    <div class="container">
+        <h1 class="title">Vivaldi > Chrome</h1>
+        <p>Extension chrome</p>
+        <a href="Chrome/ExtensionChromeTwitchLiveAlerte-main.zip" download class="link-button download">Télécharger l'extension</a>
+        <a href="tutochrome.html" class="link-button tutorial">Comment installer</a>
+    </div>
+    <footer>
+        <p>© 2024 Esaenos. tous droits réservés.</p>
+    </footer>
+</body>
+</html>
