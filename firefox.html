@@ -6,9 +6,12 @@
     <title>Firefox Page</title>
     <link rel="icon" href="images/icon256.png">
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
     <style>
+        .header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
         .background {
             position: absolute;
             top: 0;
@@ -19,7 +22,6 @@
             filter: blur(5px);
             z-index: -1;
         }
-
         .overlay {
             position: absolute;
             top: 0;
@@ -29,7 +31,6 @@
             background: rgba(0, 0, 0, 0.3);
             z-index: -1;
         }
-
         body {
             position: relative;
             font-family: Arial, sans-serif;
@@ -43,19 +44,26 @@
             background-color: #121212;
             color: #ffffff;
         }
-
         .title, p {
             text-shadow: 2px 2px 4px #000000;
         }
+        .button-container {
+            justify-content: center;
+            gap: 10px;
+        }
     </style>
+</head>
+<body>
     <div class="background"></div>
     <div class="overlay"></div>
     <div class="container">
+        <div class="button-container">
         <h1 class="title">Vous faites le bon choix.</h1>
         <p>Extension firefox</p>
         <a href="Firefox/minniestream-1.2.xpi" download class="link-button download">Installer l'extension</a>
+        <a href="tutofirefox.html" class="link-button tutorial">Comment installer</a>
+        </div>
     </div>
-
     <footer>
         <p>© 2024 Esaenos. tous droits réservés.</p>
     </footer>

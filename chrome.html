@@ -6,8 +6,6 @@
     <title>Chrome Page</title>
     <link rel="icon" href="images/icon256.png">
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
     <style>
         .background {
             position: absolute;
@@ -47,14 +45,23 @@
         .title, p {
             text-shadow: 2px 2px 4px #000000;
         }
+
+        .button-container {
+            justify-content: center;
+            gap: 10px;
+        }
     </style>
-        <div class="background"></div>
-        <div class="overlay"></div>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="overlay"></div>
     <div class="container">
         <h1 class="title">Vivaldi > Chrome</h1>
         <p>Extension chrome</p>
-        <a href="Chrome/ExtensionChromeTwitchLiveAlerte-main.zip" download class="link-button download">Télécharger l'extension</a>
-        <a href="tutochrome.html" class="link-button tutorial">Comment installer</a>
+        <div class="button-container">
+            <a href="Chrome/ExtensionChromeTwitchLiveAlerte-main.zip" download class="link-button download">Télécharger l'extension</a>
+            <a href="tutochrome.html" class="link-button tutorial">Comment installer</a>
+        </div>
     </div>
     <footer>
         <p>© 2024 Esaenos. tous droits réservés.</p>
